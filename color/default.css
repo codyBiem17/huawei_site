@@ -164,8 +164,26 @@ p.careers-firstline{
 }
 
 /* media queries */
+@media only screen and (max-width: 653px){
+	#sequence ul li div.htsl_homepage-img img{
+		margin-top: 100px;
+		/* border: 1px solid red; */
+	}
+}
 @media only screen and (max-width: 767px){
 	.flex{
 		display: flex;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	#sequence ul li h4.htsl_homepage-subtitle{
+		padding-top: 70px;
+	}
+	#sequence ul li div.htsl_homepage-img img{
+		margin-top: 65px;
+	}
+	#sequence ul li div.htsl_homepage-sideimg img{
+		margin-top: 20px;
 	}
 }
