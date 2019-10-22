@@ -164,12 +164,14 @@ p.careers-firstline{
 }
 
 /* media queries */
-@media only screen and (max-width: 653px){
-	#sequence ul li div.htsl_homepage-img img{
+@media only screen and (min-width: 320px) and (max-width: 653px){
+	#sequence ul li div.htsl_homepage-img img, #sequence ul li div.htsl_homepage-rightimg img,
+	#sequence ul li div.htsl_homepage-leftimg img{
 		margin-top: 100px;
 		/* border: 1px solid red; */
 	}
 }
+
 @media only screen and (max-width: 767px){
 	.flex{
 		display: flex;
@@ -183,7 +185,7 @@ p.careers-firstline{
 	#sequence ul li div.htsl_homepage-img img{
 		margin-top: 65px;
 	}
-	#sequence ul li div.htsl_homepage-sideimg img{
+	#sequence ul li div.htsl_homepage-rightimg img{
 		margin-top: 20px;
 	}
 }
