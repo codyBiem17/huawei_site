@@ -164,12 +164,34 @@ p.careers-firstline{
 }
 
 /* media queries */
-@media only screen and (min-width: 320px) and (max-width: 653px){
-	#sequence ul li div.htsl_homepage-img img, #sequence ul li div.htsl_homepage-rightimg img,
-	#sequence ul li div.htsl_homepage-leftimg img{
-		margin-top: 100px;
-		/* border: 1px solid red; */
+
+@media only screen and (min-width: 320px) and (max-width: 400px){
+	section#featured h2{
+		font-size: 20px;
+		line-height: 2.5em;
 	}
+	#sequence ul li div.htsl_homepage-img img{
+		padding-top: 100px;
+	}
+	#sequence ul li div.htsl_homepage-rightimg img,#sequence ul li div.htsl_homepage-leftimg img{
+		padding-top: 40px;
+	}
+}
+
+@media only screen and (min-width: 401px) and (max-width: 653px){
+	#sequence ul li div.htsl_homepage-img img{
+		padding-top: 70px;
+	}
+	#sequence ul li div.htsl_homepage-leftimg img{
+		padding-top: 70px;
+	}
+	section#featured h2{
+		/* font-size: 20px;
+		line-height: 2.1em; */
+	}
+	/* .llc{
+		font-size: ;
+	} */
 }
 
 @media only screen and (max-width: 767px){
